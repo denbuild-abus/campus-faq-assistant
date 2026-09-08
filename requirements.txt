@@ -1,0 +1,22 @@
+# Web 框架
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+
+# 数据模型
+pydantic>=2.6
+
+# 检索
+numpy>=1.24
+rank-bm25>=0.2.2
+jieba>=0.42.1
+
+# Embedding（首次运行会自动下载 BGE 中文模型）
+sentence-transformers>=2.6
+
+# 大模型调用（兼容 OpenAI 协议）
+openai>=1.30
+
+# 文档解析
+pypdf>=4.0
+python-docx>=1.1

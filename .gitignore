@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# 环境与密钥
+.env
+
+# 本地数据（保留示例文档，忽略构建产物与上传文件）
+data/index/*
+!data/index/.gitkeep
+data/docs/*
+!data/docs/sample_faq.md
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store

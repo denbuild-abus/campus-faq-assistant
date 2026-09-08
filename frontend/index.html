@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>校园新生 FAQ 助手</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <h1>🎓 校园新生 FAQ 助手</h1>
+      <button id="uploadBtn" class="ghost">上传文档</button>
+      <input type="file" id="fileInput" multiple accept=".pdf,.docx,.doc,.txt,.md" hidden />
+    </header>
+
+    <main id="chat" class="chat">
+      <div class="msg bot">
+        <p>你好！我是校园新生答疑助手。关于报到、选课、宿舍、校园卡、资助等问题都可以问我。</p>
+      </div>
+    </main>
+
+    <footer class="inputbar">
+      <input id="query" type="text" placeholder="输入你的问题，例如：宿舍几点熄灯？" />
+      <button id="sendBtn">发送</button>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

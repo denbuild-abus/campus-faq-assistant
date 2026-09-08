@@ -1,0 +1,7 @@
+[
+  {"query": "新生报到需要带哪些材料？", "expected_document": "sample_faq.md"},
+  {"query": "宿舍几点熄灯？", "expected_document": "sample_faq.md"},
+  {"query": "校园卡怎么充值？", "expected_document": "sample_faq.md"},
+  {"query": "什么时候开始选课？", "expected_document": "sample_faq.md"},
+  {"query": "家庭经济困难能申请什么资助？", "expected_document": "sample_faq.md"}
+]
