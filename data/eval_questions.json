@@ -1,7 +1,9 @@
 [
   {"query": "新生报到需要带哪些材料？", "expected_document": "sample_faq.md"},
-  {"query": "宿舍几点熄灯？", "expected_document": "sample_faq.md"},
+  {"query": "宿舍几点熄灯断电？", "expected_document": "sample_faq.md"},
+  {"query": "宿舍条件怎么样？", "expected_document": "sample_faq.md"},
   {"query": "校园卡怎么充值？", "expected_document": "sample_faq.md"},
-  {"query": "什么时候开始选课？", "expected_document": "sample_faq.md"},
-  {"query": "家庭经济困难能申请什么资助？", "expected_document": "sample_faq.md"}
+  {"query": "校园网账号密码是什么？", "expected_document": "sample_faq.md"},
+  {"query": "图书馆在哪里？", "expected_document": "sample_faq.md"},
+  {"query": "转专业需要什么条件？", "expected_document": "sample_faq.md"}
 ]

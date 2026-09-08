@@ -129,7 +129,7 @@ campus-faq-assistant/
 │   ├── build_index.py        # 离线构建索引
 │   └── eval_rag.py           # Hit@k / MRR@k 评估
 ├── data/
-│   ├── docs/sample_faq.md    # 示例文档
+│   ├── docs/sample_faq.md    # 示例文档（湖南中医药大学新生FAQ）
 │   └── eval_questions.json   # 评估测试集
 ├── frontend/                 # 原生 JS 前端
 ├── tests/                    # 单元测试 + 接口测试
